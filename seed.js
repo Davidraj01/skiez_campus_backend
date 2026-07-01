@@ -10,7 +10,7 @@ const SEED_USERS = [
   { name: "Kingston",   email: "kingstonking2003@gmail.com",   password: "Pass@123", role: "member", teamId: "mern",   designation: "Team Lead/Admin/MERN Stack Developer" },
   { name: "Jaisri",    email: "jaisriarangasamy@gmail.com",   password: "Pass@123", role: "member", teamId: "mern",   designation: "MERN Stack Developer" },
   // PYTHON DEVELOPERS
-  { name: "Naveen",    email: "naveenkumar0409@gmail.com",   password: "Pass@123", role: "member", teamId: "python", designation: "Python Developer" },
+  { name: "Naveen",    email: "naveenkumarnk0409@gmail.com",   password: "Pass@123", role: "member", teamId: "python", designation: "Python Developer" },
   { name: "Rakesh",     email: "rakeshmnm123@gmail.com",  password: "Pass@123", role: "member", teamId: "python", designation: "Python Developer" },
   {name: "ajitha", email: "ajoajitha@gmail.com", password: "Pass@123", role: "member", teamId: "python", designation: "Python Developer"},
   //Flutter Developers
