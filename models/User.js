@@ -6,7 +6,7 @@ const userSchema = new mongoose.Schema({
   email:      { type: String, required: true, unique: true, lowercase: true, trim: true },
   password:   { type: String, required: true, minlength: 6 },
   role:       { type: String, enum: ["admin", "member"], default: "member" },
-  teamId:     { type: String, enum: ["uiux","python","java","mern","pm","dm","hr","sales","flutter"], default: null },
+  teamId:     { type: String, enum: ["uiux","python","java","mern","pm","dm","hr","sales","flutter","marine"], default: null },
   designation:{ type: String, default: "" },
   avatar:     { type: String, default: "" },   // initials auto-set on save
   isActive:   { type: Boolean, default: true },

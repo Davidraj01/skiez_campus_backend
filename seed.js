@@ -12,6 +12,7 @@ const SEED_USERS = [
   // PYTHON DEVELOPERS
   { name: "Naveen",    email: "naveenkumar0409@gmail.com",   password: "Pass@123", role: "member", teamId: "python", designation: "Python Developer" },
   { name: "Rakesh",     email: "rakeshmnm123@gmail.com",  password: "Pass@123", role: "member", teamId: "python", designation: "Python Developer" },
+  {name: "ajitha", email: "ajoajitha@gmail.com", password: "Pass@123", role: "member", teamId: "python", designation: "Python Developer"},
   //Flutter Developers
   {name: "Thiru", email: "thirusakthi62@gmail.com", password: "Pass@123", role: "member", teamId: "flutter", designation: "Flutter Developer"},
   {name: "Thanigaivelan", email:"thanigaivelanselvam@gmail.com", password: "Pass@123", role: "member", teamId: "flutter", designation: "Flutter Developer"},
@@ -25,7 +26,9 @@ const SEED_USERS = [
   { name: "Vishal Sharma",     email: "vishalsharma55289@gmail.com",   password: "Pass@123", role: "member", teamId: "dm",     designation: "Digital Marketing" },
 
   // HR
-  
+  {name: "Rishwanth", email:"rish24u999@gmail.com", password:"Pass@123", role: "member", teamId: "hr", designation: "HR"},
+   //Marine
+   {name: "keerthika", email:"keerthikeerthika0223@gmail.com", password: "Pass@123", role: "member", teamId: "marine", designation: "Marine HR"}
 ];
 
 async function seed() {
